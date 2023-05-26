@@ -42,6 +42,6 @@ suggestions.addEventListener('click', useSuggestion);
     var sel_imie = $('select[name="IMEI"]');
     sel_imei.prop('disabled', true); //disable IMEI select
     $('select[name ="city"]').change(function () {
-        sel_imei.prop('disabled', false); //enable when value of city select is changed
+        sel_imei.prop('disabled', false); 
     });
 });
